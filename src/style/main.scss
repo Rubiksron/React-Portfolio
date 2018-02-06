@@ -1,5 +1,13 @@
 $color-main: goldenrod;
+$color-navbar: salmon;
+$color-p: lightblue;
 
 body {
     background: $color-main;
+}
+header {
+  background: $color-navbar;
+}
+a {
+  background: $color-p;
 }

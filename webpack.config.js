@@ -4,12 +4,12 @@ const HTMLPlugin = require('html-webpack-plugin')
 const ExtractPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
-  devtool: 'eval', 
+  devtool: 'eval',
   entry: `${__dirname}/src/main.js`,
   output: {
     filename: 'bundle-[hash].js',
     path: `${__dirname}/build`,
-    publicPath: '/', 
+    publicPath: '/',
   },
   plugins: [
     new HTMLPlugin({template: `${__dirname}/src/index.html` }),
@@ -29,4 +29,3 @@ module.exports = {
     ],
   },
 }
-
