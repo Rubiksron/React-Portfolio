@@ -1,118 +1,56 @@
-import './style/main.scss'
 import React from 'react'
 import ReactDom from 'react-dom'
-import superagent from 'superagent'
+import { BrowserRouter, Route } from 'react-router-dom'
+import './style/main.scss'
 
-const API_URL = 'http://www.reddit.com/r'
+import AboutContainer from './component/about-container'
+import DashboardContainer from './component/dashboard-container'
+import GithubContainer from './component/github-container'
 
-//App - - manage applicataion state
-//SearchForm - - collect user input and call a handleSearch function
-//SearchResultsList - - display reddit articles
-
-//::::::::::::::::::::SearchForm::::::::::::::::::::::::::::
-class SearchForm extends React.Component {
+class App extends React.Component {
+  // constructor
   constructor(props) {
     super(props)
     this.state = {
-      searchText: '',
     }
 
-    this.handleChange = this.handleChange.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
+    this.getApp = this.getApp.bind(this)
   }
 
-  handleChange(e) {
-    this.setState({
-      searchText: e.target.value,
-    })
+  //hooks
+  componentDidUpdate() {
+    console.log('__STATE__', this.state)
   }
 
-  handleSubmit(e) {
-    e.preventDefault()
-    this.props.handleSearch(this.state.searchText)
-  }
-  render() {
-    return (
-      <form onSubmit={this.handleSubmit} >
-        <h1>Portfolio Coming Soon!</h1>
-        <label> {this.props.title} </label>
-        <input
-          type='text'
-          onChange={this.handleChange} 
-          value={this.state.searchText}
-        />
-        <button type='submit'> search </button>
-      </form>
-    )
-  }
-}
-
-//::::::::::::::::::::SearchResultsList::::::::::::::::::::
-//should receive reddit article and array of reddit articles through props
-class SearchResultsList extends React.Component {
-  constructor(props){
-    super(props)
-  }
-  render() {
-    let articles = this.props.articles || []
-    return (
-      <ul>
-        {articles.map((item, i) => 
-          <li key={i}>
-            <a href={item.data.url}> {item.data.title} </a>
-          </li>
-        )}
-      </ul>
-    )
-  }
-}
-
-
-//::::::::::::::APP::::::::::::::::::::::::::::::::::::::
-class App extends React.Component {
-  constructor(props){
-    super(props)
-    this.state = {
-      results: null,
-      searchErrorMessage: null,
+  //methods
+  getApp() {
+    return {
+      state: this.state,
+      setState: this.setState.bind(this)
     }
-
-    this.redditBoardFetch = this.redditBoardFetch.bind(this)
   }
 
-  componentDidUpdate(){ 
-    console.log(':::::::::STATE::::::::::', this.state)
-  }
-
-  redditBoardFetch(board) {
-    superagent.get(`${API_URL}/${board}.json`)
-      .then(res => {
-        console.log('request success', res)
-        this.setState({
-          results: res.body.data.children,
-          searchErrorMessage: null, 
-        })
-      })
-      .catch(err => {
-        console.error(err)
-        this.setState({
-          results: null,
-          searchErrorMessage: `Unable to find the reddit board ${board}.`,
-        })
-      })
-  }
-
-  render(){  
+  //render
+  render() {
     return (
-      <main>
-        <SearchForm 
-          title='Reddit Board' 
-          handleSearch={this.redditBoardFetch}
-        />
-        <SearchResultsList articles={this.state.results} />
+      <main className='app'>
+        <BrowserRouter>
+          <div>
+            <Route exact path='/'
+              component={ () => <DashboardContainer app={ this.getApp() } /> } />
+            <Route exact path='/about'
+            component={ AboutContainer } />
+            <Route exact path='/github'
+            component={ GithubContainer } />
+          </div>
+        </BrowserRouter>
       </main>
     )
   }
 }
 
-ReactDom.render(<App />, document.getElementById('root'))
+// identical statements
+//<DashboardContainer app={this.getApp()} />
+//new DashboardContainer({app: this.getApp()})
+
+ReactDom.render(<App title='App title, over hea!' />, document.getElementById('root'))
