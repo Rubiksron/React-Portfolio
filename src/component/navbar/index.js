@@ -2,15 +2,16 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 class Navbar extends React.Component {
-  render(){
+  render() {
     return (
       <header>
-        <h1> Portfolio </h1>
+        <h3> Portfolio </h3>
         <nav>
           <ul>
               <li> <Link to='/'> Dashboard </Link> </li>
               <li> <Link to='/about'> About </Link> </li>
-              <li> <Link to='/github'> Github </Link> </li>
+              <li> <Link to='/portfolio'> Portfolio </Link> </li>
+              <li> <Link to='/contact'> Contact </Link> </li>
           </ul>
         </nav>
       </header>
