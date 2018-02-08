@@ -6,7 +6,7 @@ class AboutContainer extends React.Component {
     return (
       <div className='about-container'>
         <Navbar />
-        <p> I am the About Container </p>
+        <p> I am Ron, what? </p>
       </div>
     )
   }

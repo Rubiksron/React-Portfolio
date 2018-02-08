@@ -1,0 +1,18 @@
+body {
+  background: beige; }
+
+header {
+  width: 100%;
+  background: salmon;
+  text-align: center;
+  font-size: 6vw; }
+
+nav {
+  display: flex;
+  background: lightblue; }
+
+li {
+  font-size: 6vw;
+  display: inline;
+  list-style-type: none;
+  margin: .25em; }

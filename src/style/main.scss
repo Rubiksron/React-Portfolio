@@ -1,13 +1,23 @@
-$color-main: goldenrod;
-$color-navbar: salmon;
-$color-p: lightblue;
+$color-main: beige;
+$color-header: salmon;
+$color-navbar: lightblue;
 
 body {
     background: $color-main;
 }
 header {
+  width: 100%;
+  background: $color-header;
+  text-align: center;
+  font-size: 6vw;
+}
+nav {
+  display: flex;
   background: $color-navbar;
 }
-a {
-  background: $color-p;
+li {
+  font-size: 6vw;
+  display: inline;
+  list-style-type: none;
+  margin: .25em;
 }

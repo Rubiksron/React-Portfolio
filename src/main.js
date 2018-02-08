@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './style/main.scss'
 
 import AboutContainer from './component/about-container'
 import DashboardContainer from './component/dashboard-container'
-import GithubContainer from './component/github-container'
+import PortfolioContainer from './component/portfolio-container'
+import ContactContainer from './component/contact-container'
 
 class App extends React.Component {
   // constructor
@@ -36,12 +37,16 @@ class App extends React.Component {
       <main className='app'>
         <BrowserRouter>
           <div>
-            <Route exact path='/'
-              component={ () => <DashboardContainer app={ this.getApp() } /> } />
-            <Route exact path='/about'
-            component={ AboutContainer } />
-            <Route exact path='/github'
-            component={ GithubContainer } />
+            <Switch>
+              <Route exact path='/'
+                component={ () => <DashboardContainer app={ this.getApp() } /> } />
+              <Route exact path='/about'
+                component={ AboutContainer } />
+              <Route exact path='/portfolio'
+                component={ PortfolioContainer } />
+              <Route exact path='/contact'
+                component={ ContactContainer} />
+            </Switch>
           </div>
         </BrowserRouter>
       </main>
@@ -53,4 +58,4 @@ class App extends React.Component {
 //<DashboardContainer app={this.getApp()} />
 //new DashboardContainer({app: this.getApp()})
 
-ReactDom.render(<App title='App title, over hea!' />, document.getElementById('root'))
+ReactDom.render(<App />, document.getElementById('root'))
