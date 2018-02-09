@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../navbar'
-// import image from '../../images/West-of-the-Rockies.png'
 
 class PortfolioContainer extends React.Component {
   render() {
