@@ -7,7 +7,7 @@ body {
 }
 header {
   width: 100%;
-  background: $color-header;
+  background: $color-main;
   text-align: center;
   font-size: 6vw;
 }
@@ -19,5 +19,9 @@ li {
   font-size: 6vw;
   display: inline;
   list-style-type: none;
+  margin: .25em;
+}
+a {
+  display: inline;
   margin: .25em;
 }

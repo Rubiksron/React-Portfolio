@@ -1,2 +1,2 @@
 # React-Portfolio
-This is a portfolio made with React.js
+This is a portfolio made with React.js.  
