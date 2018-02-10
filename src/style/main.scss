@@ -19,7 +19,7 @@ li {
   list-style-type: none;
 }
 a {
-  font-size: 6vw;
+  font-size: 5vw;
   background-color: white;
   display: inline-block;
   margin: .05em;
@@ -47,16 +47,10 @@ p {
   margin: .1em;
   padding: .1em;
 }
-.navbar-icon {
-  color: white;
-  font-size: 5vw;
-  display: inline-block;
-  background-color: white;
-  margin: .1em;
-  padding: .15em;
-  text-decoration: none;
-  border: solid .01em white;
-}
 .skills-icon {
   background: yellow;
+  text-align: center;
+}
+.dashboard-container {
+  text-align: center;
 }
