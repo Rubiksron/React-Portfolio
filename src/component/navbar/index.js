@@ -4,7 +4,7 @@ import JSHeroImage from '../../../images/JavaScript-hero-image.png'
 
 var sectionStyle = {
   width: "100%",
-  height: "400px",
+  height: "10em",
   backgroundImage: `url(${JSHeroImage})`
 };
 
