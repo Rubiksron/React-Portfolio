@@ -12,16 +12,18 @@ class Navbar extends React.Component {
   render() {
     return (
       <header style={ sectionStyle }>
-        <img src={ JSHeroImage } className="JavaScriptHero" />
-        <h3> Ron Dunphy </h3>
+        <h3 className="name">
+          Ron Dunphy
+        </h3>
         <nav>
           <ul>
-              <li> <Link to='/'> Dashboard </Link> </li>
-              <li> <Link to='/about'> About </Link> </li>
-              <li> <Link to='/portfolio'> Portfolio </Link> </li>
-              <li> <Link to='/contact'> Contact </Link> </li>
+            <li> <Link to='/'> Dashboard </Link> </li>
+            <li> <Link to='/about'> About </Link> </li>
+            <li> <Link to='/portfolio'> Portfolio </Link> </li>
+            <li> <Link to='/contact'> Contact </Link> </li>
           </ul>
         </nav>
+        <img src={ JSHeroImage } className="JavaScriptHero" />
       </header>
     )
   }

@@ -1,38 +1,59 @@
-$color-main: beige;
+$color-main: white;
 $color-header: salmon;
 $color-navbar: lightblue;
 
 body {
-    background: $color-main;
+  background: $color-main;
 }
 header {
-  // background
+  padding: .1em;
   width: 100%;
-  background: $color-main;
   text-align: center;
   font-size: 6vw;
 }
-nav {
-  display: flex;
-  background: $color-navbar;
+ul {
+  padding: inherit;
 }
 li {
-  font-size: 6vw;
-  display: inline;
+  display: inline-block;
   list-style-type: none;
-  margin: .25em;
 }
 a {
-  display: inline;
-  margin: .25em;
+  font-size: 5vw;
+  background-color: whitesmoke;
+  display: inline-block;
+  margin: .05em;
+  padding: inherit;
+  border: solid .15em white;
+  justify-content: center;
+}
+p {
+  font-size: 7vw;
 }
 .contact-icon {
   width: 4em;
-  margin: .25em
 }
 .portfolio-icon {
   width: 5em;
 }
 .JavaScriptHero {
   width: 100%;
+  height: 0%;
+}
+.name {
+  font-size: 2em;
+  color: white;
+  border: solid .05em white;
+  margin: .1em;
+  padding: .1em;
+}
+.navbar-icon {
+  color: white;
+  font-size: 5vw;
+  display: inline-block;
+  background-color: white;
+  margin: .1em;
+  padding: .15em;
+  text-decoration: none;
+  border: solid .01em white;
 }
