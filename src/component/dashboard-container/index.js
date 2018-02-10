@@ -1,7 +1,5 @@
 import React from 'react'
 import Navbar from '../navbar'
-//The below is Duncan Marsh's function to avoid nested ternarys
-let renderIf = (test, component) => test ? component : undefined
 
 class DashboardContainer extends React.Component {
   constructor(props){
@@ -15,7 +13,7 @@ class DashboardContainer extends React.Component {
     return (
       <div className='dashboard-container'>
         <Navbar />
-        <p> A Dashboard I am, with yams for eyes. </p>
+        <p> Welcome. </p>
       </div>
     )
   }

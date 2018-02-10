@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import JSHero from '../../../images/JavaScript-hero-image.png'
 
 class Navbar extends React.Component {
-  
+
   render() {
     return (
       <header>
-        <h3> Portfolio </h3>
+        <img src={ JSHero } className="JavaScriptHero" />
+        <h3> Ron Dunphy </h3>
         <nav>
           <ul>
               <li> <Link to='/'> Dashboard </Link> </li>

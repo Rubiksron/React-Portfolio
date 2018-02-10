@@ -36,7 +36,3 @@ module.exports = {
     ],
   },
 }
-
-// webPackConfig.devServer = {
-//  historyApiFallback: true,
-// };
