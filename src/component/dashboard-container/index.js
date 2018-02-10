@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar'
 import Skills from '../skills'
+import Footer from '../footer'
 
 class DashboardContainer extends React.Component {
   constructor(props){
@@ -14,7 +15,6 @@ class DashboardContainer extends React.Component {
     return (
       <div className='dashboard-container'>
         <Navbar />
-        <h1> Welcome! </h1>
         <Skills />
       </div>
     )
