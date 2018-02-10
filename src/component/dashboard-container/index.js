@@ -13,7 +13,6 @@ class DashboardContainer extends React.Component {
     return (
       <div className='dashboard-container'>
         <Navbar />
-        <p> Welcome. </p>
       </div>
     )
   }
