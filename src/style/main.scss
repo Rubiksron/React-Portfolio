@@ -19,8 +19,8 @@ li {
   list-style-type: none;
 }
 a {
-  font-size: 5vw;
-  background-color: whitesmoke;
+  font-size: 6vw;
+  background-color: white;
   display: inline-block;
   margin: .05em;
   padding: inherit;
@@ -56,4 +56,7 @@ p {
   padding: .15em;
   text-decoration: none;
   border: solid .01em white;
+}
+.skills-icon {
+  background: yellow;
 }

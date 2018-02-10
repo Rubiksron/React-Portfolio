@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar'
+import Skills from '../skills'
 
 class DashboardContainer extends React.Component {
   constructor(props){
@@ -14,6 +15,7 @@ class DashboardContainer extends React.Component {
       <div className='dashboard-container'>
         <Navbar />
         <h1> Welcome! </h1>
+        <Skills />
       </div>
     )
   }
