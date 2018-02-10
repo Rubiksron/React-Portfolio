@@ -23,7 +23,7 @@ module.exports = {
         loader: 'babel-loader',
       },
       {
-        test: /\.(jpe?g|png|gif|svg)$/i,
+        test: /\.(jpeg|png|gif|svg)$/i,
         use: [
           'url-loader?limit=10000',
           'img-loader'
@@ -36,3 +36,7 @@ module.exports = {
     ],
   },
 }
+
+// webPackConfig.devServer = {
+//  historyApiFallback: true,
+// };
