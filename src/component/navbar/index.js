@@ -1,13 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import JSHero from '../../../images/JavaScript-hero-image.png'
+import JSHeroImage from '../../../images/JavaScript-hero-image.png'
+
+var sectionStyle = {
+  width: "100%",
+  height: "400px",
+  backgroundImage: `url(${JSHeroImage})`
+};
 
 class Navbar extends React.Component {
-
   render() {
     return (
-      <header>
-        <img src={ JSHero } className="JavaScriptHero" />
+      <header style={ sectionStyle }>
+        <img src={ JSHeroImage } className="JavaScriptHero" />
         <h3> Ron Dunphy </h3>
         <nav>
           <ul>
