@@ -1,17 +1,18 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import { MemoryRouter, Route } from 'react-router-dom'
 import './style/main.scss'
-
+import { MemoryRouter, Route } from 'react-router-dom'
 import AboutContainer from './component/about-container'
 import DashboardContainer from './component/dashboard-container'
 import PortfolioContainer from './component/portfolio-container'
 import ContactContainer from './component/contact-container'
+import Footer from './component/footer'
 
 class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      state: '',
     }
   }
 
@@ -34,6 +35,7 @@ class App extends React.Component {
                 component={ ContactContainer} />
           </div>
         </MemoryRouter>
+      <Footer />
       </main>
     )
   }

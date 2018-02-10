@@ -7,6 +7,7 @@ import CSSIcon from '../../../images/css.png'
 import NodeIcon from '../../../images/nodejs.png'
 import PostgreSQLIcon from '../../../images/postgresql.png'
 import SQLIcon from '../../../images/sql.png'
+import Angular2 from '../../../images/angular.jpeg'
 
 class SkillsContainer extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class SkillsContainer extends React.Component {
         <img src={ ReactIcon }/>
         <img src={ PostgreSQLIcon }/>
         <img src={ SQLIcon }/>
+        <img src={ Angular2 } className="angular"/>
       </div>
     )
   }
