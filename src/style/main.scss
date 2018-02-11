@@ -123,14 +123,25 @@ p {
       font-size: 5vw;
     }
     footer {
-      height: 5vw;
+      height: 15vw;
     }
     .angular{
       width: 9em;
     }
     a {
-      font-size: 1em;
-      color: red;
+      font-size: 2em;
       display: inline;
+    }
+    li {
+      display: inline;
+    }
+    .contact-icon {
+      width: 11em;
+    }
+    .navbar-icon {
+      font-size: 6vw;
+    }
+    .iframe {
+      height: 50vw;
     }
 }

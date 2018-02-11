@@ -11,6 +11,7 @@ class PortfolioContainer extends React.Component {
     return (
       <div className='portfolio-container'>
         <Navbar />
+
         <hr/>
         <a href="https://github.com/grello-project"><img src={ Wattle } className="wattle"/>Wattle/Grello Github Repo</a>
         <p>When assigning a task in google docs, one might have to scroll through a 100+ page document to find their task, but with Grello tasks are imported into the app where they can be further categorized into more detailed buckets.  And with the touch of a button Grello will take you to the very line in the document that your task was assigned.  This is software that is to be implemented with google.docs, so one cannot visit Grello online, however the README.md on the backend has charts and flowcharts and further explanation of how Grello works.</p>
@@ -34,6 +35,7 @@ class PortfolioContainer extends React.Component {
         <h1>Coming Soon...</h1>
         <div className="coming-soon"></div>
         <p>Working towards better times for all.</p>
+        <hr/>
       </div>
     )
   }
