@@ -12,17 +12,13 @@ class Navbar extends React.Component {
   render() {
     return (
       <header style={ sectionStyle }>
-        <h3 className="name">
-          Ron Dunphy
-        </h3>
-        <nav>
+        <h3 className="name">Ron Dunphy</h3>
           <ul>
             <li> <Link to='/'><p className="navbar-icon">Dashboard</p></Link> </li>
             <li> <Link to='/about'><p className="navbar-icon">About</p></Link> </li>
             <li> <Link to='/portfolio'><p className="navbar-icon">Portfolio</p></Link> </li>
             <li> <Link to='/contact'><p className="navbar-icon">Contact</p></Link> </li>
           </ul>
-        </nav>
         <img src={ JSHeroImage } className="JavaScriptHero" />
       </header>
     )

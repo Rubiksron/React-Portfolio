@@ -19,12 +19,12 @@ class PortfolioContainer extends React.Component {
 
         <a href="https://rubiksron.github.io/West-of-the-Rockies/"><img src= { WestOfTheRockies } className="west-of-the-rockies"/>West of the Rockies</a><br/>
         <a href="https://github.com/Rubiksron/West-of-the-Rockies"> Github Repo </a>
-        <p>This is a text based game much like a 'choose your own adventure' book, where the user can travel to each of the states West of the Rockies.  Once you arrive you will be welcomed with a state motto or a suggested sight to see.  The front end uses Angular2 design patterns and CSS for styling.</p>
+        <p>This is a text based game much like a 'choose your own adventure' book, where the user can travel to each of the states West of the Rockies.  Once you arrive you will be welcomed with a state motto or a suggested sight to see.  The front end uses Angular2 design patterns and CSS for styling and JavaScript for logic.</p>
         <hr/>
 
         <a><img src={ Portfolio } className="portfolio-image"/></a>
         <a href="https://github.com/Rubiksron/React-Portfolio">This Portfolio's Github Repo</a>
-        <p>This Portfolio is built with a react.js frontend.</p>
+        <p>This Portfolio is built with a react.js frontend. using JavaScript for logic.</p>
         <hr/>
 
         <a href="http://rubiksron.github.io/campfire-coffee/"><img src={ Campfire } className="campfire" />Campfire Coffee</a><br/>
@@ -34,7 +34,7 @@ class PortfolioContainer extends React.Component {
 
         <h1>Coming Soon...</h1>
         <div className="coming-soon"></div>
-        <p>Working towards better times for all.</p>
+        <p>Working on an app to help developers find each other.</p>
         <hr/>
       </div>
     )
