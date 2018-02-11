@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import JSHeroImage from '../../../images/JavaScript-hero-image.png'
+import JSHeroImage from '../../../images/banner-matrix.jpg'
 
 var sectionStyle = {
   width: "100%",
