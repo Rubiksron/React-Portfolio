@@ -17,7 +17,7 @@ class PortfolioContainer extends React.Component {
         <p>This Coffee speciality site has a section that will assist in calculating future needs of store locations based upon the number of customers that visit on average.</p>
         <h1>Coming Soon...</h1>
         <p> This site can see time in reverse all the way back to your infancy!</p>
-        <a href="https://github.com/Rubiksron/React-Portfolio">This Portfolio's repo</a>
+        <a href="https://github.com/Rubiksron/React-Portfolio">This Portfolio's Repo</a>
       </div>
     )
   }

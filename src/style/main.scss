@@ -72,3 +72,27 @@ p {
 .angular {
   width: 3.5em;
 }
+
+@media all and (min-width: 700px) {
+    h1 {
+        font-size: 4em;
+    }
+    img {
+      width: 8em;
+    }
+    .angular{
+      width: 9em;
+    }
+    header {
+      font-size: 3vw;
+    }
+    p {
+      font-size: 2vw;
+    }
+    a {
+      font-size: 3vw;
+    }
+    footer {
+      padding-top: 12em;
+    }
+}
