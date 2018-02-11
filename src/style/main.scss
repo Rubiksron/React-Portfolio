@@ -28,7 +28,6 @@ li {
 }
 a {
   font-size: 5vw;
-  background-color: white;
   justify-content: center;
   display: inline;
   margin: .15em;
@@ -42,6 +41,13 @@ p {
 }
 .portfolio-icon {
   width: 5em;
+}
+.navbar-icon {
+  font-size: 5vw;
+  color: white;
+  justify-content: center;
+  display: inline;
+  margin: .15em;
 }
 .JavaScriptHero {
   width: 100%;
@@ -72,6 +78,19 @@ p {
 .angular {
   width: 3.5em;
 }
+.west-of-the-rockies {
+  width: 100%;
+  border: solid .1em black;
+}
+.campfire {
+  width: 100%;
+  border: solid .1em black;
+}
+.wattle {
+  width: 100%;
+  border: solid .1em black;
+  margin-top: .5em;
+}
 
 @media all and (min-width: 700px) {
     h1 {
@@ -93,6 +112,6 @@ p {
       font-size: 3vw;
     }
     footer {
-      padding-top: 12em;
+      height: 5vw;
     }
 }

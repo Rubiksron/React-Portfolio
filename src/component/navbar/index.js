@@ -17,10 +17,10 @@ class Navbar extends React.Component {
         </h3>
         <nav>
           <ul>
-            <li> <Link to='/'> Dashboard </Link> </li>
-            <li> <Link to='/about'> About </Link> </li>
-            <li> <Link to='/portfolio'> Portfolio </Link> </li>
-            <li> <Link to='/contact'> Contact </Link> </li>
+            <li> <Link to='/'><p className="navbar-icon">Dashboard</p></Link> </li>
+            <li> <Link to='/about'><p className="navbar-icon">About</p></Link> </li>
+            <li> <Link to='/portfolio'><p className="navbar-icon">Portfolio</p></Link> </li>
+            <li> <Link to='/contact'><p className="navbar-icon">Contact</p></Link> </li>
           </ul>
         </nav>
         <img src={ JSHeroImage } className="JavaScriptHero" />
