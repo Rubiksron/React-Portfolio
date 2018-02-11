@@ -8,7 +8,7 @@ module.exports = {
   entry: `${__dirname}/src/main.js`,
   output: {
     filename: 'docs-[hash].js',
-    path: `${__dirname}/build`,
+    path: `${__dirname}/docs`,
     publicPath: '/',
   },
   plugins: [
