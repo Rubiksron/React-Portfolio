@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "watch": "webpack-dev-server --inline --hot",
     "test": "test",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --inline --hot"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
