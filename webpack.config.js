@@ -7,13 +7,13 @@ module.exports = {
   devtool: 'eval',
   entry: `${__dirname}/src/main.js`,
   output: {
-    filename: 'docs-[hash].js',
-    path: `${__dirname}/docs`,
+    filename: 'build-[hash].js',
+    path: `${__dirname}/build`,
     publicPath: '/',
   },
   plugins: [
     new HTMLPlugin({template: `${__dirname}/src/index.html` }),
-    new ExtractPlugin('docs-[hash].css'),
+    new ExtractPlugin('build-[hash].css'),
   ],
   module: {
     rules: [
@@ -25,8 +25,13 @@ module.exports = {
       {
         test: /\.(jpeg|jpg|png|gif|svg)$/i,
         use: [
-          'url-loader?limit=10000',
-          'img-loader'
+          {
+          loader: 'file-loader',
+          options: {
+            name: 'image/[name].[ext]'
+          }
+          }
+
         ]
       },
       {
