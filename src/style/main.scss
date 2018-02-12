@@ -151,7 +151,41 @@ p {
 
 
 @media all and (min-width: 1024px) {
+    p {
+      font-size: 1.5vw;
+    }
+    h1 {
+      font-size: 3vw;
+    }
+    img {
+      margin: .15em;
+    }
+    footer {
+      padding-top: 3em;  
+    }
     .contact-icon {
-      width: 7em;
+      width: 3em;
+    }
+    .navbar-icon {
+      font-size: 2vw;
+      float: left;
+      margin-left: 1em;
+    }
+    .name {
+      float: left;
+      border: 0;
+    }
+    .west-of-the-rockies, .portfolio-image, .campfire, .wattle {
+      width: 30%;
+    }
+    .coming-soon {
+      width: 30%;
+      height: 15vw;
+    }
+    .footer-icon {
+      width: 1.5em;
+    }
+    .ron-profile {
+      width: 70%;
     }
 }
