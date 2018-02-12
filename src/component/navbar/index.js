@@ -17,7 +17,6 @@ class Navbar extends React.Component {
             <li> <Link to='/'><p className="navbar-icon">Dashboard</p></Link> </li>
             <li> <Link to='/about'><p className="navbar-icon">About</p></Link> </li>
             <li> <Link to='/portfolio'><p className="navbar-icon">Portfolio</p></Link> </li>
-            <li> <Link to='/contact'><p className="navbar-icon">Contact</p></Link> </li>
           </ul>
         <img src={ JSHeroImage } className="JavaScriptHero" />
       </header>
