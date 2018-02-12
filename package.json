@@ -11,7 +11,8 @@
     "watch": "webpack-dev-server --inline --hot",
     "test": "test",
     "build": "webpack",
-    "start": "webpack-dev-server --inline --hot"
+    "start": "node index.js",
+    "heroku-postbuild": "webpack"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -21,6 +22,7 @@
     "css-loader": "^0.28.9",
     "eslint": "^4.16.0",
     "eslint-plugin-react": "^7.5.1",
+    "express": "^4.16.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "node-sass": "^4.7.2",
     "react": "^16.2.0",
