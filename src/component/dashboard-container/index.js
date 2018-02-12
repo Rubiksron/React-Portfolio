@@ -8,6 +8,7 @@ class DashboardContainer extends React.Component {
       <div className='dashboard-container'>
         <Navbar />
         <Skills />
+        
       </div>
     )
   }
