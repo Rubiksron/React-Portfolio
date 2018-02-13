@@ -1,3 +1,4 @@
+
 'use strict'
 
 const HTMLPlugin = require('html-webpack-plugin')
@@ -26,10 +27,10 @@ module.exports = {
         test: /\.(jpeg|jpg|png|gif|svg)$/i,
         use: [
           {
-          loader: 'file-loader',
-          options: {
-            name: 'image/[name].[ext]'
-          }
+            loader: 'file-loader',
+            options: {
+              name: 'image/[name].[ext]'
+            }
           }
 
         ]
