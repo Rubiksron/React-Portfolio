@@ -7,13 +7,13 @@ module.exports = {
   devtool: 'eval',
   entry: `${__dirname}/src/main.js`,
   output: {
-    filename: 'build-[hash].js',
-    path: `${__dirname}/build`,
+    filename: 'docs-[hash].js',
+    path: `${__dirname}/docs`,
     publicPath: '/',
   },
   plugins: [
     new HTMLPlugin({template: `${__dirname}/src/index.html` }),
-    new ExtractPlugin('build-[hash].css'),
+    new ExtractPlugin('docs-[hash].css'),
   ],
   module: {
     rules: [
