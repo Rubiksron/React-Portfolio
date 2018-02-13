@@ -9,7 +9,6 @@ import PortfolioContainer from '../../component/portfolio-container'
 class RouterContainer extends React.Component {
   render() {
     return (
-      <MemoryRouter>
         <div>
             <Route exact path='/'
             component={ DashboardContainer } />
@@ -18,7 +17,6 @@ class RouterContainer extends React.Component {
             <Route exact path='/portfolio'
             component={ PortfolioContainer } />
           </div>
-      </MemoryRouter>
     )
   }
 }
