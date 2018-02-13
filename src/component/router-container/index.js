@@ -10,7 +10,7 @@ class RouterContainer extends React.Component {
   render() {
     return (
       <MemoryRouter>
-        <div>      
+        <div>
           <Route exact path='/'
           component={ DashboardContainer } />
           <Route exact path='/about'
