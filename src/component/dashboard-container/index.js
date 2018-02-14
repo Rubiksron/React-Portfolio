@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../navbar'
 
 class DashboardContainer extends React.Component {
   render(){
