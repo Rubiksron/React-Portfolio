@@ -3,7 +3,7 @@ import Footer from '../footer'
 import WestOfTheRockies from '../../../images/West-of-the-Rockies.png'
 import Campfire from '../../../images/campfire-coffee.png'
 import Wattle from '../../../images/wattle-dot-io.png'
-import Portfolio from '../../../images/portfolioImage.png'
+import Portfolio from '../../../images/portfolio-image.png'
 
 class PortfolioContainer extends React.Component {
   render() {
