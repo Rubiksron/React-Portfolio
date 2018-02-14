@@ -37,6 +37,7 @@ a {
 p {
   font-size: 4vw;
 }
+
 .footer-icon {
   margin-top: .15em;
   width: 2em;
@@ -158,9 +159,9 @@ p {
 
 
 @media all and (min-width: 1024px) {
-  header {
-    height: 20vw;
-  }
+    header {
+      height: 20vw;
+    }
     p {
       font-size: 1.5vw;
     }
@@ -171,15 +172,23 @@ p {
       margin: .15em;
     }
     footer {
-      padding-top: 3em;
+      padding-top: 1em;
+    }
+    .app {
+      margin-left: 20%;
+      margin-right: 20%;
+      align-items: center;
     }
     .footer-icon {
       width: 3em;
     }
     .navbar-icon {
-      font-size: 2vw;
+      font-size: 1vw;
       float: left;
       margin-left: 1em;
+    }
+    .navbar-icon:hover {
+      color: orange;
     }
     .name {
       float: left;
