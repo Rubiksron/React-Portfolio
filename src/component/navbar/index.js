@@ -4,14 +4,14 @@ import JSHeroImage from '../../../images/banner-matrix.jpg'
 
 var sectionStyle = {
   width: "100%",
-  height: "10em",
+  // height: "10em",
   backgroundImage: `url(${JSHeroImage})`
 };
 
 class Navbar extends React.Component {
   render() {
     return (
-      <header style={ sectionStyle }>
+      <header style={ sectionStyle } className="header-section-style">
         <h3 className="name">Ron Dunphy</h3>
           <ul>
             <li> <Link to='/'><p className="navbar-icon">Dashboard</p></Link> </li>
