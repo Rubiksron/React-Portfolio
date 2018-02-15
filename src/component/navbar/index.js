@@ -4,7 +4,6 @@ import JSHeroImage from '../../../images/banner-matrix.jpg'
 
 var sectionStyle = {
   width: "100%",
-  // height: "10em",
   backgroundImage: `url(${JSHeroImage})`
 };
 
