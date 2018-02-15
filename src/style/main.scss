@@ -33,10 +33,16 @@ a {
   display: inline;
   margin: .15em;
 }
+a:hover {
+  color: orange;
+}
+
 p {
   font-size: 4vw;
 }
-
+.header-section-style {
+  height: 10em;
+}
 .footer-icon {
   margin-top: .15em;
   width: 2em;
@@ -72,7 +78,6 @@ p {
 }
 .dashboard-container {
   text-align: center;
-  padding: .5em;
 }
 .portfolio-container {
   padding: .5em;
@@ -159,7 +164,7 @@ p {
 
 @media all and (min-width: 1024px) {
     header {
-      height: 7em;
+      height: 2em;
     }
     p {
       font-size: 1.5vw;
@@ -174,6 +179,12 @@ p {
       padding-top: .5em;
       padding: 0em;
     }
+    a:hover {
+      color: orange;
+    }
+    .header-section-style {
+      height: 5em;
+    }
     .app {
       margin-left: 20%;
       margin-right: 20%;
@@ -181,6 +192,10 @@ p {
     }
     .footer-icon {
       width: .75em;
+    }
+    .footer-icon:hover {
+      background: lightblue;
+      border-radius: .1em;
     }
     .navbar-icon {
       font-size: 1vw;
@@ -192,6 +207,7 @@ p {
     }
     .name {
       float: left;
+      font-size: 1em;
       border: 0;
     }
     .west-of-the-rockies, .portfolio-image, .campfire, .wattle {
@@ -200,9 +216,6 @@ p {
     .coming-soon {
       width: 30%;
       height: 10vw;
-    }
-    .footer-icon {
-      width: 1em;
     }
     .ron-profile {
       width: 70%;
