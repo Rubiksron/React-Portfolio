@@ -24,11 +24,6 @@ class PortfolioContainer extends React.Component {
         <p>This Portfolio is built with a react.js frontend, using JavaScript for logic.</p>
         <hr/>
 
-        <a href="http://rubiksron.github.io/campfire-coffee/"><img src={ Campfire } className="campfire" /><br/>Campfire Coffee</a>
-        <a href="https://github.com/Rubiksron/campfire-coffee"> Github Repo </a>
-        <p>This Coffee speciality site has a section that will assist in calculating future needs of store locations based upon the number of customers that visit on average.</p>
-        <hr/>
-
         <h1>Coming Soon...</h1>
         <div className="coming-soon"></div><br/>
         <p>Working on an app to help developers find each other.</p>
