@@ -1,5 +1,3 @@
-
-
 $color-main: whitesmoke;
 $color-header: salmon;
 $color-navbar: lightblue;
@@ -47,9 +45,14 @@ a {
 a:hover {
   color: orange;
 }
-
 p {
   font-size: 4vw;
+}
+.dash-ron {
+  width: 30%;
+  margin-top: 1em;
+  border-radius: 20em;
+  box-shadow: 0em .25em .25em grey;
 }
 .dash-links {
   text-decoration: none;
@@ -62,10 +65,6 @@ p {
   text-align: center;
   background: linear-gradient(to top, lightgrey, white);
 }
-.port-work-pic {
-  width: 100%;
-  border: solid .1em black;
-}
 .link-to-portfolio {
   width: 80%;
   height: 12em;
@@ -74,6 +73,7 @@ p {
   background: beige;
   background-image: url('../../images/portfolio-working.jpeg');
   background-size: cover;
+  box-shadow: 0em .5em .5em grey;
 }
 .link-to-about {
   width: 80%;
@@ -83,6 +83,7 @@ p {
   background: goldenrod;
   background-image: url('../../images/mirror-cube.jpg');
   background-size: cover;
+  box-shadow: 0em .5em .5em grey;
 }
 .backgroundImage {
   width: 100%;
@@ -104,6 +105,7 @@ p {
 }
 .portfolio-image {
   width: 100%;
+  box-shadow: 0em .25em .25em grey;
 }
 .navbar-icon {
   font-size: 7vw;
@@ -127,7 +129,6 @@ p {
   background: $color-main;
   text-align: center;
   padding: .5em;
-
 }
 .portfolio-container {
   padding: 2em;
@@ -141,33 +142,32 @@ p {
 .west-of-the-rockies {
   width: 100%;
   border: solid .1em black;
+  box-shadow: 0em .25em .25em grey;
 }
-.campfire {
-  width: 100%;
-  border: solid .1em black;
-}
+
 .wattle {
   width: 100%;
   border: solid .1em black;
   margin-top: .5em;
+  box-shadow: 0em .25em .25em grey;
 }
 .coming-soon {
   width: 100%;
   height: 40vw;
   border: .15em solid black;
   background: grey;
+  box-shadow: 0em .25em .25em grey;
 }
 .ron-profile {
   width: 100%;
   margin-top: 1em;
   text-align: center;
+  box-shadow: 0em .25em .25em grey;
 }
 .iframe {
   width: 100%;
+  box-shadow: 0em .25em .25em grey;
 }
-
-
-
 @media all and (min-width: 700px) {
     h1 {
         font-size: 3em;
@@ -212,9 +212,6 @@ p {
     }
 
 }
-
-
-
 @media all and (min-width: 1024px) {
     header {
       height: 2em;
