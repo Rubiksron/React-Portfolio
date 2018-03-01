@@ -1,16 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import JSHeroImage from '../../../images/banner-matrix.jpg'
-
-var sectionStyle = {
-  width: "100%",
-  backgroundImage: `url(${JSHeroImage})`
-};
+import JSHeroImage from '../../../images/banner-matrix.jpg';
 
 class Navbar extends React.Component {
   render() {
     return (
-      <header style={ sectionStyle } className="header-section-style">
+      <header className="header-section-style">
         <h3 className="name">Ron Dunphy</h3>
           <ul>
             <li> <Link to='/'><p className="navbar-icon">Dashboard</p></Link> </li>
