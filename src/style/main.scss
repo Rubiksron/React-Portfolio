@@ -48,6 +48,9 @@ a:hover {
 p {
   font-size: 4vw;
 }
+.bio {
+  margin: .5em;
+}
 .dash-ron {
   width: 40%;
   margin-top: 1em;
@@ -57,7 +60,6 @@ p {
 .dash-links {
   text-decoration: none;
   background-color: lightblue;
-  color: black;
   padding: 1.25em;
   opacity: 0.75;
 }
@@ -238,15 +240,14 @@ p {
       margin-right: 20%;
       align-items: center;
     }
+    .dash-ron {
+      width: 30%;
+    }
     .link-to-about {
-      height: 15em;
-      width: 60%;
-      margin-left: 7em;
+      height: 11em;
     }
     .link-to-portfolio {
-      height: 15em;
-      width: 60%;
-      margin-left: 7em;
+      height: 11em;
     }
     .header-section-style {
       height: 5em;
