@@ -57,12 +57,6 @@ p {
   border-radius: 20em;
   box-shadow: 0em .25em .25em grey;
 }
-.dash-links {
-  text-decoration: none;
-  background-color: lightblue;
-  padding: 1.25em;
-  opacity: 0.75;
-}
 .dashboard-container {
   width: 100%;
   text-align: center;
@@ -74,7 +68,7 @@ p {
   text-align: center;
   margin: 10%;
   background: beige;
-  background-image: url('../../images/portfolio-working.jpeg');
+  background-image: url('../../images/Portfolio-Link.png');
   background-size: cover;
   box-shadow: 0em .5em .5em grey;
 }
@@ -84,7 +78,7 @@ p {
   text-align: center;
   margin: 10%;
   background: goldenrod;
-  background-image: url('../../images/mirror-cube.jpg');
+  background-image: url('../../images/About-Link.png');
   background-size: cover;
   box-shadow: 0em .5em .5em grey;
 }
@@ -216,69 +210,74 @@ p {
 
 }
 @media all and (min-width: 1024px) {
-    header {
-      height: 2em;
-    }
-    p {
-      font-size: 1.5vw;
-    }
-    h1 {
-      font-size: 3vw;
-    }
-    img {
-      margin: .15em;
-    }
-    footer {
-      padding-top: .5em;
-      padding: 0em;
-    }
-    a:hover {
-      color: orange;
-    }
-    body {
-      margin-left: 20%;
-      margin-right: 20%;
-      align-items: center;
-    }
-    .dash-ron {
-      width: 30%;
-    }
-    .link-to-about {
-      height: 11em;
-    }
-    .link-to-portfolio {
-      height: 11em;
-    }
-    .header-section-style {
-      height: 5em;
-      width: 99%;
-    }
-    .footer-icon {
-      width: .75em;
-    }
-    .footer-icon:hover {
-      background: lightblue;
-      border-radius: .1em;
-    }
-    .navbar-icon {
-      font-size: 1.5vw;
-      margin-left: 1em;
-    }
-    .navbar-icon:hover {
-      color: orange;
-    }
-    .name {
-      font-size: 1em;
-      border: 0;
-    }
-    .west-of-the-rockies, .portfolio-image, .wattle {
-      width: 30%;
-    }
-    .coming-soon {
-      width: 30%;
-      height: 10vw;
-    }
-    .ron-profile {
-      width: 70%;
-    }
+  ul {
+    // border: solid 1px red;
+  }
+  header {
+    height: 2em;
+  }
+  p {
+    font-size: 1.5vw;
+  }
+  h1 {
+    font-size: 3vw;
+  }
+  img {
+    margin: .15em;
+  }
+  footer {
+    padding-top: .5em;
+    padding: 0em;
+  }
+  a:hover {
+    color: orange;
+  }
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+  }
+  .dash-ron {
+    width: 30%;
+  }
+  .link-to-about {
+    height: 11em;
+  }
+  .link-to-portfolio {
+    height: 11em;
+  }
+  .header-section-style {
+    height: 5em;
+    width: 99%;
+    padding-bottom: 2em;
+  }
+  .footer-icon {
+    width: .75em;
+  }
+  .footer-icon:hover {
+    background: lightblue;
+    border-radius: .1em;
+  }
+  .navbar-icon {
+    font-size: 2vw;
+    margin-left: 1em;
+  }
+  .navbar-icon:hover {
+    color: orange;
+  }
+  .name {
+    font-size: 1em;
+    border: 0;
+    margin-top: 1em;
+  }
+  .west-of-the-rockies, .portfolio-image, .wattle {
+    width: 30%;
+  }
+  .coming-soon {
+    width: 30%;
+    height: 10vw;
+  }
+  .ron-profile {
+    width: 70%;
+  }
 }
