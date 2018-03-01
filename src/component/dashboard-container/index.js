@@ -8,7 +8,6 @@ class DashboardContainer extends React.Component {
     return (
       <div className='dashboard-container'>
         <img src={ DashRon } className="dash-ron"/>
-        <p>My name is Ron Dunphy and I solve puzzles.</p>
         <Link to='/portfolio'><div className="link-to-portfolio"><p className="dash-links">Portfolio</p></div></Link>
         <Link to='/about'><div className="link-to-about"><p className="dash-links">About</p></div></Link>
       </div>

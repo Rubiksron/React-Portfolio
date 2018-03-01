@@ -49,7 +49,7 @@ p {
   font-size: 4vw;
 }
 .dash-ron {
-  width: 30%;
+  width: 40%;
   margin-top: 1em;
   border-radius: 20em;
   box-shadow: 0em .25em .25em grey;
@@ -57,6 +57,7 @@ p {
 .dash-links {
   text-decoration: none;
   background-color: lightblue;
+  color: black;
   padding: 1.25em;
   opacity: 0.75;
 }
@@ -67,7 +68,7 @@ p {
 }
 .link-to-portfolio {
   width: 80%;
-  height: 12em;
+  height: 11em;
   text-align: center;
   margin: 10%;
   background: beige;
@@ -77,7 +78,7 @@ p {
 }
 .link-to-about {
   width: 80%;
-  height: 12em;
+  height: 11em;
   text-align: center;
   margin: 10%;
   background: goldenrod;
@@ -236,6 +237,16 @@ p {
       margin-left: 20%;
       margin-right: 20%;
       align-items: center;
+    }
+    .link-to-about {
+      height: 15em;
+      width: 60%;
+      margin-left: 7em;
+    }
+    .link-to-portfolio {
+      height: 15em;
+      width: 60%;
+      margin-left: 7em;
     }
     .header-section-style {
       height: 5em;
