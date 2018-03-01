@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import JSHeroImage from '../../../images/banner-matrix.jpg';
+// import JSHeroImage from '../../../images/';
 
 class Navbar extends React.Component {
   render() {
@@ -12,7 +12,6 @@ class Navbar extends React.Component {
             <li> <Link to='/about'><p className="navbar-icon">About</p></Link> </li>
             <li> <Link to='/portfolio'><p className="navbar-icon">Portfolio</p></Link> </li>
           </ul>
-        <img src={ JSHeroImage } className="JavaScriptHero" />
       </header>
     )
   }
