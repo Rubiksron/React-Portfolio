@@ -14,8 +14,8 @@ class SkillsContainer extends React.Component {
     return (
       <div className="skills-icon">
         <h1> Languages: </h1>
-        <img src={ JavaScriptIcon }/>
         <img src={ HTMLIcon }/>
+        <img src={ JavaScriptIcon }/>
         <img src={ CSSIcon }/>
         <h1> Libraries/Frameworks:</h1>
         <img src={ NodeIcon }/>
