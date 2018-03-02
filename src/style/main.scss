@@ -211,9 +211,6 @@ p {
 
 }
 @media all and (min-width: 1024px) {
-  ul {
-    // border: solid 1px red;
-  }
   header {
     height: 2em;
   }
@@ -242,10 +239,10 @@ p {
     width: 30%;
   }
   .link-to-about {
-    height: 11em;
+    height: 20em;
   }
   .link-to-portfolio {
-    height: 11em;
+    height: 20em;
   }
   .header-section-style {
     height: 4em;

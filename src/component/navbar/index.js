@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import JSHeroImage from '../../../images/';
 
 class Navbar extends React.Component {
   render() {
