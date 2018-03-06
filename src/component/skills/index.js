@@ -14,15 +14,15 @@ class SkillsContainer extends React.Component {
     return (
       <div className="skills-icon">
         <h1> Languages: </h1>
-        <img src={ HTMLIcon }/>
-        <img src={ JavaScriptIcon }/>
-        <img src={ CSSIcon }/>
+        <img src={ HTMLIcon } alt="html" />
+        <img src={ JavaScriptIcon } alt="javascript" />
+        <img src={ CSSIcon } alt="css" />
+        <img src={ SQLIcon } alt="sql" />
         <h1> Libraries/Frameworks:</h1>
-        <img src={ NodeIcon }/>
-        <img src={ ReactIcon }/>
-        <img src={ PostgreSQLIcon }/>
-        <img src={ SQLIcon }/>
-        <img src={ Angular2 } className="angular"/>
+        <img src={ NodeIcon } alt="node.js" />
+        <img src={ ReactIcon } alt="react.js" />
+        <img src={ PostgreSQLIcon } alt="postgreSQL" />
+        <img src={ Angular2 } className="angular" alt="angular2" />
       </div>
     )
   }
