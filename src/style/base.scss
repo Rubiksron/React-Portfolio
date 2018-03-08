@@ -1,0 +1,48 @@
+$color-main: whitesmoke;
+
+element:hover, element:active {
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-user-select: none;
+-webkit-touch-callout: none
+}
+html {
+  background-image: url('../../images/desktop-fog.jpg');
+  background-size: cover;
+  width: 100%;
+}
+body {
+  background: $color-main;
+}
+header {
+  padding: .1em;
+  width: 100%;
+  text-align: center;
+  font-size: 6vw;
+}
+footer {
+  text-align: center;
+  background: black;
+  padding: .01em;
+  padding-top: 1em;
+  color: white;
+  width: 100%;
+}
+ul {
+  padding: inherit;
+}
+li {
+  display: block;
+  list-style-type: none;
+}
+a {
+  font-size: 5vw;
+  justify-content: center;
+  display: inline;
+  margin: .15em;
+}
+a:hover {
+  color: orange;
+}
+p {
+  font-size: 4vw;
+}
