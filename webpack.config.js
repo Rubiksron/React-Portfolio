@@ -32,7 +32,6 @@ module.exports = {
               name: 'image/[name].[ext]'
             }
           }
-
         ]
       },
       {
