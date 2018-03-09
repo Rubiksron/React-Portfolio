@@ -3,6 +3,7 @@ import Footer from '../footer'
 import WestOfTheRockies from '../../../images/West-of-the-Rockies.png'
 import Wattle from '../../../images/wattle-dot-io.png'
 import Portfolio from '../../../images/portfolio-img.png'
+import Wordtwist from '../../../images/wordtwist.png'
 
 class PortfolioContainer extends React.Component {
   render() {
@@ -18,9 +19,14 @@ class PortfolioContainer extends React.Component {
         <p>This is a text based game much like a 'choose your own adventure' book, where the user can travel to each of the states West of the Rockies.  Once you arrive you will be welcomed with a state motto or a suggested sight to see.  The front end uses Angular2 design patterns and CSS for styling and JavaScript for logic.</p>
         <hr/>
 
-        <a><img src={ Portfolio } className="portfolio-image"/></a><br/>
+        <a href="https://ron-dunphy-portfolio.herokuapp.com"><img src={ Portfolio } className="portfolio-image"/></a><br/>
         <a href="https://github.com/Rubiksron/React-Portfolio">This Portfolio's Github Repo</a>
         <p>This Portfolio is built with a react.js frontend, using JavaScript for logic.</p>
+        <hr/>
+
+        <a href="https://github.com/Rubiksron/wordtwist_wizard"><img src={ Wordtwist } className="wordtwist-image"/></a><br/>
+        <a href="https://github.com/Rubiksron/wordtwist_wizard">Github Repo</a>
+        <p>This extension will search for wordtwist gameboards with at least 160 ultra rare words. You can open more than one tab, but if you are playing a game when another tab finds a gameboard with 160 words then it will interupt your current game.</p>
         <hr/>
 
         <h1>Coming Soon...</h1>

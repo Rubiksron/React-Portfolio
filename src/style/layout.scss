@@ -105,6 +105,11 @@
   background: grey;
   box-shadow: 0em .25em .25em grey;
 }
+.wordtwist-image {
+  width: 100%;
+  border: solid .1em black;
+  box-shadow: 0em .25em .25em grey;
+}
 .ron-profile {
   width: 100%;
   margin-top: 1em;
@@ -218,6 +223,9 @@
   .coming-soon {
     width: 30%;
     height: 10vw;
+  }
+  .wordtwist-image {
+    width: 50%;
   }
   .ron-profile {
     width: 70%;
