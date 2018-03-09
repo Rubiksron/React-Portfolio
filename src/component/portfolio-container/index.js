@@ -24,7 +24,7 @@ class PortfolioContainer extends React.Component {
         <p>This Portfolio is built with a react.js frontend, using JavaScript for logic.</p>
         <hr/>
 
-        <a href="https://github.com/Rubiksron/wordtwist_wizard"><img src={ Wordtwist } className="wordtwist-image"/></a><br/>
+        <a href="https://chrome.google.com/webstore/search/wordtwist_wizard"><img src={ Wordtwist } className="wordtwist-image"/></a><br/>
         <a href="https://github.com/Rubiksron/wordtwist_wizard">Github Repo</a>
         <p>This extension will search for wordtwist gameboards with at least 160 ultra rare words. You can open more than one tab, but if you are playing a game when another tab finds a gameboard with 160 words then it will interupt your current game.</p>
         <hr/>
