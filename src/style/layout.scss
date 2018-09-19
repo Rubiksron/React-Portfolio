@@ -87,6 +87,9 @@
 .angular {
   width: 3.5em;
 }
+.csharpicon {
+  width: 2.75em;
+}
 .west-of-the-rockies {
   width: 100%;
   border: solid .1em black;
@@ -151,6 +154,9 @@
     .angular {
       width: 6em;
     }
+    .csharpicon {
+      width: 4.5em;
+    }
     .footer-icon {
       width: 1em;
     }
@@ -163,6 +169,7 @@
     .coming-soon, .west-of-the-rockies, .portfolio-image, .wattle {
       width: 70%;
     }
+
 
 }
 @media all and (min-width: 1024px) {
