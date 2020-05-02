@@ -15,7 +15,7 @@
     "heroku-postbuild": "webpack"
   },
   "engines": {
-    "node": "12.16.x"
+    "node": "10.16.3"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
