@@ -11,7 +11,7 @@ class PortfolioContainer extends React.Component {
       <div className='portfolio-container'>
         <hr/>
         <a href="https://github.com/grello-project"><img src={ Wattle } className="wattle"/><br/>Wattle/Grello Github Repo</a><br/>
-        <p>When assigned a task in google docs, one might have to scroll through a 100+ page document to find their task, Grello will take you to the very line in the document that your task was assigned.  This is software that is to be implemented with google.docs, so one cannot visit Grello online, however the README.md on the backend has flowcharts and further explanation of how Grello works.</p>
+        <p>When assigned a task in google docs, one might have to scroll through a 100+ page document to find their task, Grello will take you to the very line in the document that your task was assigned.  The README.md on the backend has flowcharts and further explanation of how Grello works.</p>
         <hr/>
 
         <a href="https://rubiksron.github.io/West-of-the-Rockies/"><img src= { WestOfTheRockies } className="west-of-the-rockies"/><br/>West of the Rockies</a><br/>
@@ -19,14 +19,14 @@ class PortfolioContainer extends React.Component {
         <p>This is a text based game much like a 'choose your own adventure' book, where the user can travel to each of the states West of the Rockies.  Once you arrive you will be welcomed with a state motto or a suggested sight to see.  The front end uses Angular2 design patterns and CSS for styling and JavaScript for logic.</p>
         <hr/>
 
-        <a href="https://ron-dunphy-portfolio.herokuapp.com"><img src={ Portfolio } className="portfolio-image"/></a><br/>
+        <a href="https://github.com/Rubiksron/React-Portfolio"><img src={ Portfolio } className="portfolio-image"/></a><br/>
         <a href="https://github.com/Rubiksron/React-Portfolio">This Portfolio's Github Repo</a>
         <p>This Portfolio is built with a react.js frontend, using JavaScript for logic.</p>
         <hr/>
 
-        <a href="https://github.com/Rubiksron/wordtwist_wizard"><img src={ Wordtwist } className="wordtwist-image"/></a><br/>
+        <a href="https://chrome.google.com/webstore/search/wordtwist_wizard"><img src={ Wordtwist } className="wordtwist-image"/></a><br/>
         <a href="https://github.com/Rubiksron/wordtwist_wizard">Github Repo</a>
-        <p>This extension will search for wordtwist gameboards with at least 160 ultra rare words. You can open more than one tab, but if you are playing a game when another tab finds a gameboard with 160 words then it will interupt your current game.</p>
+        <p>This is a Google extension that will search for wordtwist gameboards with at least 160 ultra rare words.</p>
         <hr/>
 
         <h1>Coming Soon...</h1>
