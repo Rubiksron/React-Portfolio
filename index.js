@@ -1,5 +1,5 @@
 const express = require('express');
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 //change back to process.env.PORT before pushing to github
 express()
   .use(express.static(`${__dirname}/docs`))
