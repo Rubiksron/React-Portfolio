@@ -105,19 +105,33 @@
   width: 100%;
   margin-top: 1em;
   text-align: center;
-  
 }
 .chore-bear {
   width: 100%;
   margin-top: 1em;
   text-align: center;
-  
 }
 .iframe {
   width: 100%;
 }
 img {
   align-items: center;
+}
+.jquery {
+  width: 11%;
+  margin-bottom: .25rem;
+}
+.express {
+  width: 20%;
+  margin-bottom: 1rem;
+}
+.ejs {
+  width: 20%;
+  margin-bottom: 1rem;
+}
+.bcrypt {
+  width: 11%;
+  margin-bottom: .25rem;
 }
 
 @media all and (min-width: 700px) {
@@ -165,8 +179,14 @@ img {
     .iframe {
       height: 50vw;
     }
-    .coming-soon, .west-of-the-rockies, .portfolio-image, .wattle {
+    .west-of-the-rockies, .portfolio-image, .wattle {
       width: 70%;
+    }
+    .bcrypt {
+      width: 9%;
+    }
+    .jquery {
+      width: 9%;
     }
 
 
@@ -232,5 +252,8 @@ img {
   }
   .ron-profile {
     width: 70%;
+  }
+  .jquery {
+    width: 9%;
   }
 }
