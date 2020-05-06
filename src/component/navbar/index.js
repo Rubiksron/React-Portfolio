@@ -7,7 +7,7 @@ class Navbar extends React.Component {
       <header className="header-section-style">
         <h3 className="name">Ron Dunphy</h3>
           <ul>
-            <li> <Link to='/'><p className="navbar-icon">Dashboard</p></Link> </li>
+            <li> <Link to='/'><p className="navbar-icon">Home</p></Link> </li>
             <li> <Link to='/about'><p className="navbar-icon">About</p></Link> </li>
             <li> <Link to='/portfolio'><p className="navbar-icon">Portfolio</p></Link> </li>
           </ul>

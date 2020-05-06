@@ -10,7 +10,7 @@ class FooterContainer extends React.Component {
         <a href="https://github.com/Rubiksron"><img src={ Github } className="footer-icon" /></a>
         <a href="mailto:rubiksron@gmail.com"><img src={ Email } className="footer-icon" /></a>
         <a href="https://www.linkedin.com/in/rondunphy/"><img src={ LinkedIn } className="footer-icon" /></a>
-        <p> &copy; Ron Dunphy 2018 </p>
+        <p> &copy; Ron Dunphy 2020 </p>
       </footer>
     )
   }
