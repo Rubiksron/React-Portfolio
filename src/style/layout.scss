@@ -81,6 +81,9 @@
 .about-container {
   padding: 2em;
 }
+.javascript {
+  width: 13%;
+}
 .angular {
   width: 3em;
 }
@@ -138,6 +141,15 @@ img {
 }
 .node {
   width: 17%;
+}
+.html5 {
+  width: 13%;
+}
+.css {
+  width: 13%;
+}
+.sql {
+  width: 13%;
 }
 
 @media all and (min-width: 700px) {
@@ -200,7 +212,18 @@ img {
     .jquery {
       width: 9%;
     }
-
+    .javascript {
+      width: 10%;
+    }
+    .html5 {
+      width: 10.5%;
+    }
+    .css {
+      width: 10.5%;
+    }
+    .sql {
+      width: 11%;
+    }
 
 }
 @media all and (min-width: 1024px) {
