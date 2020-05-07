@@ -2,10 +2,10 @@ import React from 'react'
 import Navbar from '../navbar'
 import HTMLIcon from '../../../images/html.png'
 import JavaScriptIcon from '../../../images/javascript.png'
-import ReactIcon from '../../../images/reactjs.png'
+import ReactIcon from '../../../images/react.png'
 import CSSIcon from '../../../images/css.png'
-import NodeIcon from '../../../images/nodejs.png'
-import Angular2 from '../../../images/angular.jpeg'
+import NodeIcon from '../../../images/node.png'
+import Angular2 from '../../../images/angular.png'
 import CSharpIcon from '../../../images/CSharpIcon.jpeg'
 import Tsql from '../../../images/new_tsql_logo.png'
 import JQuery from '../../../images/jquery.png'
@@ -24,8 +24,8 @@ class SkillsContainer extends React.Component {
         <img src={ CSSIcon } alt="css" />
         <img src={ Tsql } alt="tsql" />
         <h1> Libraries/Frameworks:</h1>
-        <img src={ NodeIcon } alt="node.js" />
-        <img src={ ReactIcon } alt="react.js" />
+        <img src={ NodeIcon } className="node" alt="node.js" />
+        <img src={ ReactIcon } className="react" alt="react.js" />
         <img src={ Angular2 } className="angular" alt="angular2" />
         <img src={ JQuery } className="jquery" alt="jquery" />
         <img src={ Bcrypt } className="bcrypt" alt="bcrypt" /><br/>
