@@ -1,6 +1,6 @@
 import React from 'react'
-import Github from '../../../images/github-blue.png'
-import LinkedIn from '../../../images/linkedin.png'
+import Github from '../../../images/github-cat.png'
+import LinkedIn from '../../../images/linkedIn-icon.png'
 import Email from '../../../images/email-blue.png'
 
 class FooterContainer extends React.Component {

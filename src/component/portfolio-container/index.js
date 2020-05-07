@@ -41,11 +41,6 @@ class PortfolioContainer extends React.Component {
         <p>This is a text based game much like a 'choose your own adventure' book, where the user can travel to each of the states West of the Rockies.  Once you arrive you will be welcomed with a state motto or a suggested sight to see.  The front end uses Angular2 design patterns and CSS for styling and JavaScript for logic.</p>
         <hr/>
 
-        <h1>Wattle - Google Docs helper</h1>
-        <a href="https://github.com/grello-project"><img src={ Wattle } className="wattle"/><br/>Wattle/Grello Github</a><br/>
-        <p>When assigned a task in google docs, one might have to scroll through a 100+ page document to find their task, Grello will take you to the very line in the document that your task was assigned.  The README.md on the backend has flowcharts and further explanation of how Grello works.</p>
-        <hr/>
-
       </div>
     )
   }
