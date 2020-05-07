@@ -82,7 +82,7 @@
   padding: 2em;
 }
 .angular {
-  width: 3.5em;
+  width: 3em;
 }
 .csharpicon {
   width: 2.75em;
@@ -133,6 +133,12 @@ img {
   width: 11%;
   margin-bottom: .25rem;
 }
+.react {
+  width: 14%;
+}
+.node {
+  width: 17%;
+}
 
 @media all and (min-width: 700px) {
     h1 {
@@ -158,6 +164,12 @@ img {
     li {
       display: inline;
     }
+    .node {
+      width: 15%;
+    }
+    .react {
+      width: 11%;
+    }
     .chore-bear {
       width: 18rem;
     }
@@ -165,7 +177,7 @@ img {
       width: 99.5%;
     }
     .angular {
-      width: 6em;
+      width: 5.25em;
     }
     .csharpicon {
       width: 4.5em;
