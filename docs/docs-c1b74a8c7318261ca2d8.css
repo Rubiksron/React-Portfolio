@@ -1,0 +1,302 @@
+element:hover, element:active {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; }
+
+html {
+  background-image: url(/image/desktop-fog.jpg);
+  background-size: cover;
+  width: 100%; }
+
+body {
+  background: whitesmoke; }
+
+header {
+  padding: .1em;
+  width: 100%;
+  text-align: center;
+  font-size: 6vw; }
+
+footer {
+  text-align: center;
+  background: black;
+  padding: .01em;
+  padding-top: 1em;
+  color: white;
+  width: 100%; }
+
+img {
+  margin: .25rem; }
+
+ul {
+  padding: inherit; }
+
+li {
+  display: block;
+  list-style-type: none; }
+
+a {
+  font-size: 5vw;
+  justify-content: center;
+  display: inline;
+  margin: .15em;
+  text-decoration: none; }
+
+a:hover {
+  color: goldenrod; }
+
+p {
+  font-size: 4vw; }
+
+hr {
+  margin-bottom: 3rem; }
+
+.bio {
+  margin: .5em;
+  padding: 2rem; }
+
+.dash-ron {
+  width: 40%;
+  margin-top: 1em;
+  border-radius: 20em; }
+
+.dashboard-container {
+  width: 100%;
+  background: linear-gradient(to top, lightgrey, white); }
+
+#round-ron-main {
+  text-align: center; }
+
+.link-to-portfolio {
+  width: 80%;
+  height: 11em;
+  text-align: center;
+  margin: 10%;
+  background: beige;
+  background-image: url(/image/Portfolio-Link.png);
+  background-size: cover; }
+
+.link-to-about {
+  width: 80%;
+  height: 11em;
+  text-align: center;
+  margin: 10%;
+  background: goldenrod;
+  background-image: url(/image/About-Link.png);
+  background-size: cover; }
+
+.backgroundImage {
+  width: 100%; }
+
+.header-section-style {
+  height: 10em;
+  width: 99%;
+  background-image: url(/image/keys.jpeg);
+  background-size: cover; }
+
+.footer-icon {
+  margin-top: .15em;
+  width: 2em; }
+
+.footer-icon:hover {
+  color: lightblue; }
+
+.portfolio-icon {
+  width: 5em; }
+
+.portfolio-image {
+  width: 100%; }
+
+.navbar-icon {
+  font-size: 7vw;
+  color: white;
+  justify-content: center;
+  display: inline;
+  margin: .15em; }
+
+.JavaScriptHero {
+  width: 100%;
+  height: 0%; }
+
+.name {
+  font-size: 2em;
+  color: white;
+  margin: .1em;
+  padding: .1em; }
+
+.skills-icon {
+  background: whitesmoke;
+  text-align: center;
+  padding: .5em; }
+
+.about-container {
+  padding: 2em; }
+
+.javascript {
+  width: 13%; }
+
+.angular {
+  width: 3em; }
+
+.csharpicon {
+  width: 2.75em; }
+
+.west-of-the-rockies {
+  width: 100%; }
+
+.wattle {
+  width: 100%;
+  margin-top: .5em; }
+
+.portfolio-container {
+  padding: 2em; }
+
+.wordtwist-image {
+  width: 100%;
+  align-items: center; }
+
+.ron-profile {
+  width: 100%;
+  margin-top: 1em;
+  text-align: center; }
+
+.chore-bear {
+  width: 100%;
+  margin-top: 1em;
+  text-align: center; }
+
+.iframe {
+  width: 100%; }
+
+img {
+  align-items: center; }
+
+.jquery {
+  width: 11%;
+  margin-bottom: .25rem; }
+
+.express {
+  width: 20%;
+  margin-bottom: 1rem; }
+
+.ejs {
+  width: 20%;
+  margin-bottom: 1rem; }
+
+.bcrypt {
+  width: 11%;
+  margin-bottom: .25rem; }
+
+.react {
+  width: 14%; }
+
+.node {
+  width: 17%; }
+
+.html5 {
+  width: 13%; }
+
+.css {
+  width: 13%; }
+
+.sql {
+  width: 13%; }
+
+@media all and (min-width: 700px) {
+  h1 {
+    font-size: 3em; }
+  img {
+    width: 5em; }
+  header {
+    font-size: 3vw;
+    margin-bottom: 2em; }
+  footer {
+    height: 15vw;
+    font-size: 3vw;
+    padding-bottom: 2em;
+    margin-top: 4em; }
+  a {
+    font-size: 2em;
+    display: inline; }
+  li {
+    display: inline; }
+  .node {
+    width: 15%; }
+  .react {
+    width: 11%; }
+  .chore-bear {
+    width: 18rem; }
+  .header-section-style {
+    width: 99.5%; }
+  .angular {
+    width: 5.25em; }
+  .csharpicon {
+    width: 4.5em; }
+  .footer-icon {
+    width: 1em; }
+  .navbar-icon {
+    font-size: 5vw; }
+  .iframe {
+    height: 50vw; }
+  .west-of-the-rockies, .portfolio-image, .wattle {
+    width: 70%; }
+  .bcrypt {
+    width: 9%; }
+  .jquery {
+    width: 9%; }
+  .javascript {
+    width: 10%; }
+  .html5 {
+    width: 10.5%; }
+  .css {
+    width: 10.5%; }
+  .sql {
+    width: 13%; } }
+
+@media all and (min-width: 1024px) {
+  header {
+    height: 2em; }
+  p {
+    font-size: 1.5vw; }
+  h1 {
+    font-size: 3vw; }
+  img {
+    margin: .15em; }
+  footer {
+    padding-top: .5em;
+    padding: 0em; }
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center; }
+  .dash-ron {
+    width: 30%; }
+  .header-section-style {
+    height: 4em;
+    width: 99%;
+    padding-bottom: 2em; }
+  .footer-icon {
+    width: .75em; }
+  .footer-icon:hover {
+    background: lightblue;
+    border-radius: .1em; }
+  .navbar-icon {
+    font-size: 2vw;
+    margin-left: 1em; }
+  .navbar-icon:hover {
+    color: goldenrod; }
+  .name {
+    font-size: 1em;
+    border: 0;
+    margin-top: 1em; }
+  .west-of-the-rockies, .portfolio-image, .wattle {
+    width: 30%; }
+  .coming-soon {
+    width: 30%;
+    height: 10vw; }
+  .wordtwist-image {
+    width: 50%; }
+  .ron-profile {
+    width: 70%; }
+  .jquery {
+    width: 9%; } }
