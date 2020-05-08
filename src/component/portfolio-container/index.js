@@ -1,7 +1,5 @@
 import React from 'react'
-import Footer from '../footer'
 import WestOfTheRockies from '../../../images/West-of-the-Rockies.png'
-import Wattle from '../../../images/wattle-dot-io.png'
 import Portfolio from '../../../images/portfolio-img.png'
 import Wordtwist from '../../../images/wordtwist.png'
 import ChoreBear from '../../../images/chore-bear.png'
@@ -39,6 +37,11 @@ class PortfolioContainer extends React.Component {
         <a href="https://rubiksron.github.io/West-of-the-Rockies/"><img src= { WestOfTheRockies } className="west-of-the-rockies"/><br/>Go to West of the Rockies</a><br/>
         <a href="https://github.com/Rubiksron/West-of-the-Rockies"> Github Link </a>
         <p>This is a text based game much like a 'choose your own adventure' book, where the user can travel to each of the states West of the Rockies.  Once you arrive you will be welcomed with a state motto or a suggested sight to see.  The front end uses Angular2 design patterns and CSS for styling and JavaScript for logic.</p>
+        <hr/>
+
+        <h1>Node.js and Express Tutorial Series</h1>
+        <p>This is a sampling of videos I created for a course series that was contracted by a global Learning Management System</p>
+        <a href="https://www.youtube.com/playlist?list=PLi49ks-_IPmB332Aa70F4JyifYEGYbJHG">Go to playlist</a>
         <hr/>
 
       </div>
