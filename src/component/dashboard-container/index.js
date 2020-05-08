@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import PortfolioWorking from '../../../images/portfolio-working.jpeg'
 import DashRon from '../../../images/dashboard-ron.jpg'
-import SayHello from '../pure-component'
 
 class DashboardContainer extends React.Component {
   render(){
