@@ -6,4 +6,4 @@ I impliment BCrypt, when needed, to hash passwords for user protection and I use
 
 <img src="images/Express-icon.png" width="150" height="40" /> | <img src="images/react.png" width="40" height="40" /> | <img src="images/node.png" width="90" height="50" />
 ------------ | ------------- | ------------ 
-Express for all routing needs. | React for front-end rendering. | NodeJS for all npm related needs.
+Express for all routing needs. | React for front-end rendering. | NodeJS for all npm package.
