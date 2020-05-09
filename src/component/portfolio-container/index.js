@@ -3,6 +3,7 @@ import WestOfTheRockies from '../../../images/West-of-the-Rockies.png'
 import Portfolio from '../../../images/portfolio-img.png'
 import Wordtwist from '../../../images/wordtwist.png'
 import ChoreBear from '../../../images/chore-bear.png'
+import NodeJS from '../../../images/nodejs-screenshot.png'
 
 class PortfolioContainer extends React.Component {
   render() {
@@ -40,6 +41,7 @@ class PortfolioContainer extends React.Component {
         <hr/>
 
         <h1>Node.js and Express Tutorial Series</h1>
+        <img src= { NodeJS } className="nodejs"/><br/>
         <p>This is a sampling of videos I created for a course series that was contracted by a global Learning Management System</p>
         <a href="https://www.youtube.com/playlist?list=PLi49ks-_IPmB332Aa70F4JyifYEGYbJHG">Go to playlist</a>
         <hr/>

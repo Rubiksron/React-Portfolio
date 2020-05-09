@@ -3,6 +3,9 @@
   padding-left: 2rem;
   padding-right: 2rem;
 }
+.nodejs {
+  width: 95%;
+}
 .dash-ron {
   width: 40%;
   margin-top: 1em;
@@ -158,11 +161,14 @@ img {
 }
 
 @media all and (min-width: 700px) {
-    h1 {
-        font-size: 3em;
-    }
     img {
       width: 5em;
+    }
+    .nodejs {
+      width: 70%;
+    }
+    h1 {
+        font-size: 3em;
     }
     header {
       font-size: 3vw;
@@ -229,9 +235,12 @@ img {
     .sql {
       width: 11%;
     }
-
 }
+
 @media all and (min-width: 1024px) {
+  .nodejs {
+    width: 30%;
+  }
   .iframe {
     height: 40vw;
   }
