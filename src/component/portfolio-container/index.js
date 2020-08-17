@@ -1,5 +1,4 @@
 import React from 'react'
-import WestOfTheRockies from '../../../images/West-of-the-Rockies.png'
 import Portfolio from '../../../images/portfolio-img.png'
 import Wordtwist from '../../../images/wordtwist.png'
 import ChoreBear from '../../../images/chore-bear.png'
